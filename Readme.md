@@ -21,12 +21,10 @@ chmod +x inject-seo.sh
 ### Configuration
 Before running the script, customize the following variables within inject-seo.sh to match your project's configuration:
 
-```shell
-baseUrl: The base URL of your site.
-defaultDescription: A default description for your site's pages.
-defaultOGImage: A default Open Graph image URL.
-distDir: The directory where your static files are located.
-```
+`baseUrl`: The base URL of your site.
+`defaultDescription`: A default description for your site's pages.
+`defaultOGImage`: A default Open Graph image URL.
+`distDir`: The directory where your static files are located.
 
 ### Usage
 *Run the script after generating your static site files:*
